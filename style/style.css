@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'monospace';
+    font-size: 36px;
+	background-color: 'gray';
+	text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: 0;
+}
+
+#controlUI-locate {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+
+#controlUI-locate:hover {
+    cursor: pointer;
+}
+
+
+.leaflet-interactive{
+z-index: 9999!important;
+}
+
+.leaflet-marker-draggable {
+    z-index: 999999!important;
+}
+
+.leaflet-control-layers-expanded {
+    text-align: left;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+.leaflet-control-layers-expanded {
+    font-size: 1.5em;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+.leaflet-control-command-interior
+{
+    width: 20px;
+    height: 20px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 3px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    box-shadow: 0 1px 7px rgba(0, 0, 0, 0.65);
+    cursor: auto;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+
+.leaflet-control-command-interior:hover
+{
+    background-color: #F4F4F4;
+}
+
+.label-range{
+    margin:0;
+}
